@@ -17,7 +17,7 @@ while(true)
 	$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 	
 	socket_connect($sock, $IP, $PORT);
-	echo "Connexion a l'emulateur\r\n\n\n";
+	echo "Connection to the emulator\r\n\n\n";
 			
 	Send('<policy-file-request/>', $sock);
 	Send(encodeLength(415).encodeLength(strlen($SSO)).$SSO, $sock);
