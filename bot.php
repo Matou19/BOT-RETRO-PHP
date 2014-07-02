@@ -1,6 +1,6 @@
 <?php
 //Axed: Phoenix Bot Program
-//By Kodamas for Ragezone.
+//By Kodamas for Ragezone and iBuild.
 ob_implicit_flush();
 set_time_limit(0);
 error_reporting(0);
